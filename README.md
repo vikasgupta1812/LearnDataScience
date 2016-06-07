@@ -1,67 +1,5 @@
-Who
----
-
-* [Nitin Borwankar](http://twitter.com/nitin) - primary developer  
-Sponsored by [Pivotal Inc.](http://gopivotal.com) and [Alpine Data Labs](http://alpinenow.com)  
-Community forming at [Google Group "learnds"](https://groups.google.com/forum/#!forum/learnds)
-
-What
-----
-
-* A collection of Data Science Learning materials in the form of IPython Notebooks.
-* Associated data sets.
-
-The initial beta release consists of four major topics
-
-* Linear Regression
-* Logistic Regression
-* Random Forests
-* K-Means Clustering
-
-Each of the above has at least three IPython Notebooks covering
-
-* Overview (an exposition of the technique for the math-wary)
-* Data Exploration (the nuts and bolts of real world data wrangling)
-* Analysis (using the technique to get results)
-
-One or more of these may have supplementary material.
-Each of these have worksheets that contain mostly the code sections so you can iteratively explore the code.
-
-Three openly available data sets are used.  
-
-* For the Linear and Logistic Regression we use a data set on loans and interest rates provided by Learning Club http://learningclub.com  
-* For Random Forests we use a data set of Android accelerometer and gyroscope readings used to predict body position and motion from the Human Activity Recognition project
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-* UN data on economic indicators of countries
-
-Why
----
-
-There's a need for open content to raise the level of awareness and training in basics, in the Data Science
-field (circa early 2013).
-
-IPython Notebook provides an appropriate platform for rapid iterative exploration and learning.
-
-When
-----
-
-Starting in 2013 and intended to extend for a long while.
-
-Where
------
-
-Today github, tomorrow the world. 
-[Google Group "learnds"](https://groups.google.com/forum/#!forum/learnds)
-
-How
----
-
-Learn Data Science is based on content developed by me (Nitin Borwankar) for the Open Data Science Training project http://opendst.org
-Most of the content (circa July 2013) is copyright (c) Alpine Data Labs as per the license at opendst.org, and is freely available.
-Extensions to the content embodied in this projects content are also released under the same license - see the LICENSE.txt file.
-
-IPython Notebooks at Beta.  
---------------------------  
+IPython Notebooks.  
+-----  
 
 * [A0. Before You Begin](http://nbviewer.ipython.org/urls/raw.github.com/nborwankar/LearnDataScience/master/notebooks/A0.%20Before%20You%20Begin.ipynb)
 * [A1. Linear Regression - Overview](http://nbviewer.ipython.org/urls/raw.github.com/nborwankar/LearnDataScience/master/notebooks/A1.%20Linear%20Regression%20-%20Overview.ipynb)
@@ -90,31 +28,55 @@ IPython Notebooks at Beta.
 * [Z1. Appendix 1 Plotting code snippets ](http://nbviewer.ipython.org/urls/raw.github.com/nborwankar/LearnDataScience/master/notebooks/Z1.%20Appendix%201%20Plotting%20code%20snippets%20.ipynb)
 
 
-Background  
-----------
-
-If you are unfamiliar with IPython Notebook you can start with http://ipython.org/notebook
 
 
-Installation  
-------------
+What
+----
 
-* Prerequisites  
-One of the following distributions is needed. Please note that even if you have Python installed it is important to have one of these distributions installed and the binary for this installation in your path. This is because these distributions come packaged with all the supplementary libraries needed and these have been historically difficult to install separately.
+* A collection of Data Science Learning materials in the form of IPython Notebooks.
+* Associated data sets.
 
-  * EPD Free Enthought Python Distribution from http://enthought.com
-  * Anaconda Python from http://continuum.io
-  * Development has been done on v 1.5 of Anaconda distribution but EPD Free should work just as well.
+The initial beta release consists of four major topics
 
-* The following steps assume you have installed one of the distributions mentioned in prerequisites.
+* Linear Regression
+* Logistic Regression
+* Random Forests
+* K-Means Clustering
 
-* From a zip or tar file
-    * download the zip or tar file 
-    * unpack the file to a directory called learnds
-    * cd to the 'notebooks' subdirectory
-    * start IPython Notebook 'ipython notebook --pylab=inline'
- 
-* From the git repo
-    * clone the repo
-    * cd to 'notebooks'
-    * start IPython Notebook 'ipython notebook --pylab=inline'
+Each of the above has at least three IPython Notebooks covering
+
+* Overview (an exposition of the technique for the math-wary)
+* Data Exploration (the nuts and bolts of real world data wrangling)
+* Analysis (using the technique to get results)
+
+One or more of these may have supplementary material. Each of these have worksheets that contain mostly the code sections so you can iteratively explore the code.
+
+Three openly available data sets are used.  
+
+* For the Linear and Logistic Regression we use a data set on loans and interest rates provided by Learning Club http://learningclub.com  
+* For Random Forests we use a data set of Android accelerometer and gyroscope readings used to predict body position and motion from the Human Activity Recognition project
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* UN data on economic indicators of countries
+
+Why
+---
+
+There's a need for open content to raise the level of awareness and training in basics, in the Data Science
+field (circa early 2013).
+
+IPython Notebook provides an appropriate platform for rapid iterative exploration and learning.
+
+When
+----
+
+Starting in 2013 and intended to extend for a long while.
+
+Where
+-----
+
+[Google Group "learnds"](https://groups.google.com/forum/#!forum/learnds)
+
+How
+---
+
+Learn Data Science is based on content developed by me (Nitin Borwankar) for the Open Data Science Training project http://opendst.org Most of the content (circa July 2013) is copyright (c) Alpine Data Labs as per the license at opendst.org, and is freely available. Extensions to the content embodied in this projects content are also released under the same license - see the LICENSE.txt file.
